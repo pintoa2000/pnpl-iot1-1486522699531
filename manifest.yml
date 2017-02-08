@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: pnpl-iot1
+  host: pnpl-iot1
+  disk_quota: 1024M
+  services:
+  - pnpl-iot1-cloudantNoSQLDB
+  - pnpl-iot1-iotf-service
